@@ -1,0 +1,11 @@
+{
+  "name": "score-keeper",
+  "version": "1.0.0",
+  "description": "it keeps track of the scores of both team during a game",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

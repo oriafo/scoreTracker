@@ -1,0 +1,15 @@
+#container{ 
+    width: 300px;
+    background-color: rgba(14, 12, 12, 0.719);
+    padding: 10px 30px 50px 50px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#view{
+    padding-bottom: 20px;
+}
+
+.header{
+    color: rgb(0, 240, 0);
+}
