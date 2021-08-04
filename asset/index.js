@@ -15,53 +15,45 @@ input.addEventListener("change", function(){
 })
 
 buttonA.addEventListener("click", function(){
-    if (score){
-        if(countA === 0){
-            viewA.classList.remove("header")
-        }else{
-            viewA.classList.add("header")
-        } 
-        //score = !score
+    if (score){       
+        null      
     }else{
         if (inputValue === 0){
-             viewA.classList.remove("header")
+             null
         }else{
             countA += 1;
-            console.log("countA: ", countA)
-            console.log("inputValue: ", inputValue)
+            //console.log("countA: ", countA)
+            //console.log("inputValue: ", inputValue)
             viewA.textContent = countA;
             if (Number(inputValue) === countA){
+                console.log(score)
                 viewA.classList.add("header")            
                 score = !score
+                console.log(score) 
             }
-                console.log(score)
             }
         }
     })
 
 buttonB.addEventListener("click", function(){
-    if (score){
-          if(countB === 0){
-            viewB.classList.remove("header")
-        }else{
-            viewB.classList.add("header")
-        }
-    //score = !score
+    if (score){           
+            null       
     }else{
         if (inputValue === 0){
-            viewB.classList.remove("header")
+            null
         }else{
             countB += 1;
             viewB.textContent = countB;
             if (Number(inputValue) === countB){
+                console.log(score)
                 viewB.classList.add("header")            
                 score = !score
+                console.log(score)
             }
         }
         
     }
-}) 
-
+})
 
 reset.addEventListener("click", function(){
     inputValue = 0;
